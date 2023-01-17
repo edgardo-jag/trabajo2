@@ -165,9 +165,21 @@ nav ul li{
     background-color: #e6ddc4;
     
 }
+ li a{
+    color:#191d31;
+    text-decoration: none;
+    display: block;
+}
+li:hover{
+    background-color:rgb(171, 213, 184) ;
+}
+.activo{
+    background-color: #5c8880;
+}
+
 main{
     width: 100%;
-    background: url(../img/codigo.jpg);
+    background: url(../img/codigo.jpg) 50% 0 fixed;
     background-size: cover;
     min-height: 500px;
 }
@@ -219,7 +231,7 @@ section{
     display: flex;
     background-size: cover;
     min-height: 500px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .tarjeta{
@@ -229,9 +241,9 @@ section{
       text-align: center;
       box-sizing: border-box;
       border: 5px solid rgb(230, 226, 185);
-      display: block;
-      margin: 120px auto;
-     
+      justify-content: space-evenly;
+      margin-top: 100px;
+     gap: 20%;
   }
   .tarjeta button{
     background-color: black;
@@ -241,6 +253,14 @@ section{
     color: white;
     margin-top: 90px;
     font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 3px #678983;
+    text-align: center;
+  }
+  .estilo{
+    text-decoration: none;
+    color: white;
+
   }
   .imaUno{
     background: url(../img/img1.jpg);
@@ -288,4 +308,50 @@ footer div{
     text-align: center;
 }
 
-    
+    /*estilo a la hoja de historia*/
+    article{
+        max-width: 100%;
+        
+        display: flex;
+       
+    }
+    .video-histo{
+        width: 100%;
+    }
+    video{
+        width: 1230px;
+        display: flex;
+        margin: auto;
+    }
+    .barra-video{
+        background-color: #1d1d1d;
+        border-radius: 10px;
+        padding: 2px 5px;
+        display: flex;
+        justify-content: space-between;
+        max-width:1230px;
+        max-height: 50px;
+        margin: auto;
+        color: white;
+        margin-bottom: 120px;
+    }
+    .btnvideo{
+        background-color: #e6ddc4;
+        box-shadow: 2px 3px #678983;
+        border-radius: 10px;
+        margin-left: 10px;
+         
+    }
+    #play{
+        width: 80px;
+        height: 40px;
+    }
+    #pausa{
+        width: 80px;
+        height: 40px;
+    }
+    .duracion{
+        display: flex;
+        margin-right: 10px;
+        align-items: center;
+    }
