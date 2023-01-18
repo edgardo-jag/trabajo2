@@ -143,10 +143,12 @@ nav{
     margin: 0 40px;
 
 }   
-#logo{
-    align-self: flex-start;
-    width: 60px;
+svg{
+    width: 200px;
+    height: 80px;
+    
 }
+
 
 nav ul{
     list-style-type: none;
