@@ -423,3 +423,28 @@ footer div{
         margin-right: 10px;
         align-items: center;
     }
+    @media (max-width:780px) {
+        section{
+            display: flex;
+            flex-direction: column;
+            margin-top: 60px;
+            margin-bottom: 200px;
+            align-items: center;
+        }
+        .titulo-historia{
+            margin-bottom: 100px;
+        }
+        .contsection .contsection{
+            display: flex;
+            flex-direction: column;
+            margin-top: 1000px;
+        }
+        div .cont {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .espa{
+            height: 100px;
+        }
+    }
